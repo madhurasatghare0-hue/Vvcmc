@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  /* Fonts */
+  --font-heading: "Poppins", sans-serif;
+  --font-body: "Inter", sans-serif;
+
+  /* Official VVMC seal colors */
+  --color-green: #00843C;
+  --color-green-dark: #00632D;
+  --color-green-light: #E5F2EB;
+
+  /* Dark neutral (was "navy") — deep forest-green/near-black, no blue */
+  --color-navy: #1B2E22;
+  --color-navy-dark: #12201A;
+  --color-navy-light: #2C4736;
+  --color-navy-mist: #EAF1EC;
+
+  --color-gold: #C09C24;
+  --color-gold-dark: #997C1C;
+  --color-gold-light: #F5F0DE;
+
+  --color-graybg: #FAFBFA;
+
+  /* Accent variables — kept within the green/gold/dark-neutral family */
+  --color-accent-purple: #1B2E22;
+  --color-accent-green: #00843C;
+  --color-accent-orange: #997C1C;
+  --color-accent-blue: #C09C24;
+  --color-accent-pink: #4E9A6B;
+  --color-accent-teal: #2C4736;
+
+  /* Semantic alert colors — functional status indicators, left as-is */
+  --color-alert-red: #3F2D36;
+  --color-alert-amber: #4B3E36;
+  --color-alert-green: #253E3E;
+
+  
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-graybg);
+  color: #1a1a1a;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
