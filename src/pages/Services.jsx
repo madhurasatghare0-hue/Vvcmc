@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import { ArrowRight, Search } from 'lucide-react'
 import Navbar from '../components/layout/Navbar'
 import PageHeader from '../components/common/PageHeader'
@@ -60,9 +61,10 @@ function Services() {
               {filteredServices.map((service) => {
                 const Icon = service.icon
                 return (
-                  <div
-                    key={service.title}
-                    className="group bg-white border border-gray-100 rounded-2xl p-6 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 cursor-pointer"
+                  <Link
+                    key={service.slug}
+                    to={`/services/${service.slug}`}
+                    className="group bg-white border border-gray-100 rounded-2xl p-6 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
                   >
                     <div className="w-12 h-12 rounded-xl bg-green-light flex items-center justify-center mb-4">
                       <Icon className="text-green" size={22} />
@@ -77,7 +79,7 @@ function Services() {
                       {common.applyNow}
                       <ArrowRight size={13} className="group-hover:translate-x-1 transition-transform" />
                     </div>
-                  </div>
+                  </Link>
                 )
               })}
             </div>

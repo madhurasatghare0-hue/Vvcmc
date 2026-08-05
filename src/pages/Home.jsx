@@ -1,20 +1,21 @@
-import Navbar from '../components/layout/Navbar'
+import Layout from '../components/layout/Layout'
 import HeroSection from '../components/sections/HeroSection'
 import QuickLinks from '../components/sections/QuickLinks'
 import LiveDashboard from '../components/sections/LiveDashboard'
 import FeaturedServices from '../components/sections/FeaturedServices'
-import AboutVVMC from '../components/sections/AboutVVMC'
+import Leadership from '../components/sections/Leadership'
+import NoticeBoard from '../components/sections/NoticeBoard'
 
 function Home() {
   return (
-    <div>
-      <Navbar />
+    <Layout>
       <HeroSection />
       <QuickLinks />
       {/* <LiveDashboard /> */}
       <FeaturedServices />
-      <AboutVVMC/>
-    </div>
+      <NoticeBoard/>
+      <Leadership />
+    </Layout>
   )
 }
 export default Home

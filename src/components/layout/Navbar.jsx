@@ -12,15 +12,13 @@ function Navbar() {
   const t = translations[language]
 
   const navLinks = [
-    { name: t.nav.home, path: '/' },
-    { name: t.nav.about, path: '/about' },
-    { name: t.nav.services, path: '/services' },
-    { name: t.nav.departments, path: '/departments' },
-    { name: t.nav.citizenCorner, path: '/citizen-corner' },
-    { name: t.nav.projects, path: '/projects' },
-    { name: t.nav.tourism, path: '/tourism' },
-    { name: t.nav.contact, path: '/contact' },
-  ]
+  { name: t.nav.home, path: '/' },
+  { name: t.nav.about, path: '/about' },
+  { name: t.nav.services, path: '/services' },
+  { name: t.nav.departments, path: '/departments' },
+  { name: t.nav.citizenCorner, path: '/citizen-corner' },
+  { name: t.nav.tourism, path: '/tourism' },
+]
 
   return (
     <nav className="sticky top-0 left-0 w-full z-50 bg-white shadow-sm py-3">

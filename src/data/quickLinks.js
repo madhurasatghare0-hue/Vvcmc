@@ -1,10 +1,23 @@
-import { Smartphone, Truck, Laptop, CalendarCheck, MapPin, Building2 } from 'lucide-react'
+import {
+  Smartphone,
+  MessageSquareWarning,
+  MapPin,
+  Building2,
+  Trees,
+} from 'lucide-react'
 
 export const quickLinks = [
-  { key: 'digitalLocker', icon: Smartphone, color: 'purple' },
-  { key: 'track', icon: Truck, color: 'green' },
-  { key: 'online', icon: Laptop, color: 'orange' },
-  { key: 'book', icon: CalendarCheck, color: 'blue' },
-  { key: 'cityMap', icon: MapPin, color: 'pink' },
-  { key: 'projects', icon: Building2, color: 'teal' },
+  {
+    key: 'digitalLocker',
+    icon: Smartphone,
+    color: 'purple',
+  },
+  { key: 'complaint', icon: MessageSquareWarning, color: 'red', path: '/complaint' },
+{ key: 'cityMap', icon: MapPin, color: 'pink', path: '/city-map' },
+{ key: 'gardens', icon: Trees, color: 'green', path: '/gardens' },
+  {
+    key: 'projects',
+    icon: Building2,
+    color: 'teal',
+  },
 ]

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { quickLinks } from '../../data/quickLinks'
 import { useLanguage } from '../../context/LanguageContext'
 import { translations } from '../../data/translations'
@@ -9,6 +10,7 @@ const colorMap = {
   blue: 'text-accent-blue',
   pink: 'text-accent-pink',
   teal: 'text-accent-teal',
+  red: 'text-red-600',
 }
 
 function QuickLinks() {
@@ -18,21 +20,22 @@ function QuickLinks() {
   return (
     <section className="relative -mt-10 z-10">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+        <div className="flex flex-wrap justify-center gap-6">
           {quickLinks.map((item) => {
             const Icon = item.icon
             const color = colorMap[item.color]
             const label = t[item.key]
             return (
-              <button
+              <Link
                 key={item.key}
-                className="bg-white rounded-2xl shadow-lg border border-gray-100 px-4 py-5 flex flex-col items-center gap-2 text-center hover:shadow-xl hover:-translate-y-0.5 transition-all"
+                to={item.path}
+                className="w-40 bg-white rounded-2xl shadow-lg border border-gray-100 px-4 py-5 flex flex-col items-center gap-2 text-center hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
               >
-                <Icon className={color} size={22} />
+                <Icon className={color} size={24} />
                 <h3 className={`font-heading font-semibold text-sm ${color}`}>
                   {label.title}
                 </h3>
-              </button>
+              </Link>
             )
           })}
         </div>

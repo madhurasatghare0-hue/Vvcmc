@@ -57,10 +57,7 @@ function FeaturedServices() {
                 <p className="text-gray-500 text-xs leading-relaxed mb-4">
                   {language === 'mr' ? service.description_mr : service.description}
                 </p>
-                <div className="flex items-center gap-1.5 text-xs font-semibold text-gray-400 group-hover:text-green transition-colors">
-                  {common.explore}
-                  <ArrowRight size={13} className="group-hover:translate-x-1 transition-transform" />
-                </div>
+                
               </div>
             )
           })}

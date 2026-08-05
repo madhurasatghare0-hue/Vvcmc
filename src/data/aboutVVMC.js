@@ -1,5 +1,8 @@
 import mayorPhoto from '../assets/images/mayor.jpg'
+import deputyMayorPhoto from "../assets/images/deputy-mayor.jpg"
 import commissionerPhoto from '../assets/images/Commisioner.jpg'
+
+
 
 export const leadership = [
   {
@@ -13,6 +16,18 @@ export const leadership = [
       'प्रत्येक नागरिकाला सेवांचा सुलभ प्रवेश, पारदर्शक प्रशासन आणि आधुनिक शहरांशी तुलना करता येईल असे जीवनमान मिळावे, हीच आमची दृष्टी आहे.',
     photo: mayorPhoto,
     initials: 'AP',
+  },
+  {
+    name: 'Marshal Lopes',
+    role: "Deputy Mayor's Message", role_mr: 'उपमहापौरांचा संदेश',
+    designation: 'Deputy Mayor, Vasai-Virar City Municipal Corporation',
+    designation_mr: 'उपमहापौर, वसई-विरार शहर महानगरपालिका',
+    message:
+      'We remain dedicated to supporting inclusive growth and ensuring every ward receives equal attention in the city\'s development journey.',
+    message_mr:
+      'शहराच्या विकास प्रवासात प्रत्येक प्रभागाला समान लक्ष मिळावे आणि सर्वसमावेशक वाढीला पाठिंबा देण्यासाठी आम्ही कटिबद्ध आहोत.',
+    photo: deputyMayorPhoto,
+    initials: 'ML',
   },
   {
     name: 'Prithviraj B.P. (IAS)',
@@ -46,8 +61,22 @@ export const visionMission = [
 ]
 
 export const quickStats = [
-  { value: 12, suffix: 'L+', label: 'Population Served' },
-  { value: 119, suffix: '', label: 'Municipal Wards' },
-  { value: 285, suffix: '+', label: 'Schools' },
-  { value: 45, suffix: '+', label: 'Hospitals' },
+  {
+    value: 25,
+    suffix: 'L+',
+    label: 'Population Served',
+    label_mr: 'लोकसंख्या'
+  },
+  {
+    value: 115,
+    suffix: '',
+    label: 'Municipal Wards',
+    label_mr: 'महानगरपालिका प्रभाग'
+  },
+  {
+    value: 7,
+    suffix: '+',
+    label: 'Hospitals',
+    label_mr: 'रुग्णालये'
+  },
 ]
