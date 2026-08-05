@@ -17,7 +17,9 @@ function Navbar() {
   { name: t.nav.services, path: '/services' },
   { name: t.nav.departments, path: '/departments' },
   { name: t.nav.citizenCorner, path: '/citizen-corner' },
+  // { name: t.nav.projects, path: '/projects' },
   { name: t.nav.tourism, path: '/tourism' },
+  { name: t.nav.contact, path: '/contact' },
 ]
 
   return (
@@ -25,18 +27,23 @@ function Navbar() {
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-3">
-          <div className="w-14 h-14 flex items-center justify-center">
-            <img
-              src={logo}
-              alt="VVMC Logo"
-              className="w-full h-full object-contain"
-            />
-          </div>
-          <div className="leading-tight">
-            <p className="font-heading font-bold text-lg text-navy">Vasai Virar</p>
-            <p className="text-xs text-navy/60">Mahanagar Pallika</p>
-          </div>
-        </Link>
+  <div className="w-14 h-14 flex items-center justify-center">
+    <img
+      src={logo}
+      alt="VVMC Logo"
+      className="w-full h-full object-contain"
+    />
+  </div>
+
+  <div className="leading-tight">
+    <p className="font-heading font-bold text-lg text-navy">
+      Vasai Virar City
+    </p>
+    <p className="text-sm font-medium text-navy/70">
+      Municipal Corporation
+    </p>
+  </div>
+</Link>
 
         {/* Desktop Nav Links */}
         <div className="hidden lg:flex items-center gap-7">

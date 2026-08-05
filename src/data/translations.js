@@ -69,6 +69,8 @@ export const translations = {
        complaint: { title: 'Register a Complaint', subtitle: 'Report civic issues in your area and track resolution status.' },
       cityMap: { title: 'City Map', subtitle: "Explore Vasai Virar's wards, landmarks, and municipal boundaries." },
       gardens: { title: 'Gardens & Parks', subtitle: 'Public gardens and recreational spaces maintained by VVMC across the city.' },
+      contact: { title: 'Contact Us', subtitle: "Have a question or need assistance? We'd love to hear from you." },
+
     },
     history: {
       eyebrow: 'Our journey', title: 'Our History',
@@ -133,6 +135,18 @@ tourism: {
     heritage: 'Culture & Heritage',
     heritageValue: 'Rich',
   },
+  heroTitle1: 'Explore', heroTitle2: 'Vasai Virar',
+heroHeadline: 'Where History, Nature & Culture Come Together',
+stats: {
+  destinations: 'Destinations', destinationsNote: 'Must Visit Places',
+  visitors: 'Happy Visitors', visitorsNote: 'Every Year',
+  photoSpots: 'Photo Spots', photoSpotsNote: 'Capture Memories',
+  events: 'Events & Festivals', eventsNote: 'Celebrated Yearly',
+},
+featuredDestinations: 'Featured Destinations', viewAllPlaces: 'View All Places',
+discoverByCategory: 'Discover by Category',
+mustKnow: 'Must Know', tourismMap: 'Tourism Map',
+whyVisit: 'Why Visit Vasai Virar?',
 },
 serviceDetail: {
   overview: 'Overview',
@@ -149,6 +163,15 @@ serviceDetail: {
   documents: ['Valid ID proof (Aadhaar / Voter ID / Passport)', 'Address proof', 'Passport-size photograph', 'Relevant supporting documents for this service'],
   applyNow: 'Apply Now',
   backToServices: 'Back to Services',
+},
+contactPage: {
+  getInTouch: 'Get in Touch',
+  formTitle: 'Send Us a Message',
+  name: 'Full Name', email: 'Email Address', subject: 'Subject', message: 'Message',
+  namePlaceholder: 'Enter your name', emailPlaceholder: 'you@example.com',
+  subjectPlaceholder: 'What is this regarding?', messagePlaceholder: 'Write your message here...',
+  send: 'Send Message',
+  mapPlaceholder: 'Map location coming soon',
 },
 
   },
@@ -222,6 +245,8 @@ serviceDetail: {
       complaint: { title: 'तक्रार नोंदवा', subtitle: 'तुमच्या भागातील नागरी समस्या नोंदवा व निवारण स्थितीचा मागोवा घ्या.' },
       cityMap: { title: 'शहर नकाशा', subtitle: 'वसई विरारचे प्रभाग, महत्त्वाची ठिकाणे व महानगरपालिका सीमा पहा.' },
       gardens: { title: 'उद्याने व बगीचे', subtitle: 'व्हीव्हीएमसीद्वारे शहरभर राखलेली सार्वजनिक उद्याने व मनोरंजन स्थळे.' },
+      contact: { title: 'संपर्क करा', subtitle: 'काही प्रश्न आहे किंवा मदत हवी आहे? आम्हाला जरूर कळवा.' },
+
     },
     history: {
       eyebrow: 'आमचा प्रवास', title: 'आमचा इतिहास',
@@ -288,6 +313,18 @@ tourism: {
     heritage: 'संस्कृती व वारसा',
     heritageValue: 'समृद्ध',
   },
+  heroTitle1: 'पहा', heroTitle2: 'वसई विरार',
+heroHeadline: 'जिथे इतिहास, निसर्ग व संस्कृती एकत्र येतात',
+stats: {
+  destinations: 'पर्यटनस्थळे', destinationsNote: 'अवश्य भेट द्यावी अशी ठिकाणे',
+  visitors: 'आनंदी पर्यटक', visitorsNote: 'दरवर्षी',
+  photoSpots: 'फोटो स्पॉट्स', photoSpotsNote: 'आठवणी टिपा',
+  events: 'कार्यक्रम व उत्सव', eventsNote: 'दरवर्षी साजरे होतात',
+},
+featuredDestinations: 'प्रमुख पर्यटनस्थळे', viewAllPlaces: 'सर्व ठिकाणे पहा',
+discoverByCategory: 'श्रेणीनुसार शोधा',
+mustKnow: 'हे जाणून घ्या', tourismMap: 'पर्यटन नकाशा',
+whyVisit: 'वसई विरारला का भेट द्यावी?',
 },
 serviceDetail: {
   overview: 'माहिती',
@@ -304,6 +341,15 @@ serviceDetail: {
   documents: ['वैध ओळखपत्र (आधार / मतदार ओळखपत्र / पासपोर्ट)', 'पत्ता पुरावा', 'पासपोर्ट आकाराचा फोटो', 'या सेवेसाठी संबंधित सहाय्यक कागदपत्रे'],
   applyNow: 'आता अर्ज करा',
   backToServices: 'सेवांकडे परत जा',
+},
+contactPage: {
+  getInTouch: 'संपर्कात रहा',
+  formTitle: 'आम्हाला संदेश पाठवा',
+  name: 'पूर्ण नाव', email: 'ईमेल पत्ता', subject: 'विषय', message: 'संदेश',
+  namePlaceholder: 'तुमचे नाव टाका', emailPlaceholder: 'you@example.com',
+  subjectPlaceholder: 'हे कशासंबंधी आहे?', messagePlaceholder: 'तुमचा संदेश येथे लिहा...',
+  send: 'संदेश पाठवा',
+  mapPlaceholder: 'नकाशा स्थान लवकरच येत आहे',
 },
   },
 }
